@@ -27,7 +27,7 @@ function App() {
     <button className='operator' onClick={deleteEl}>DE</button>
 
     <button id='.'className= 'operator' onClick={handleClick}>.</button>
-    <button id='/'className= 'operator' onClick={handleClick}>/</button>
+    <button id='/'className= 'operator' onClick={handleClick}>÷</button>
 
 
     <button id='7'className= 'number' onClick={handleClick}>7</button>
@@ -35,7 +35,7 @@ function App() {
     <button id='9'className= 'number' onClick={handleClick}>9</button>
 
 
-    <button id='*'className= 'operator' onClick={handleClick}>*</button>
+    <button id='*'className= 'operator' onClick={handleClick}>x</button>
 
     <button id='4'className= 'number' onClick={handleClick}>4</button>
     <button id='5'className= 'number' onClick={handleClick}>5</button>
